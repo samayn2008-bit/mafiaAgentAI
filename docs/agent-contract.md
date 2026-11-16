@@ -1,0 +1,4 @@
+# Agent contract — initial proposal for joint review
+async decide(AgentObservation) -> AgentAction. P1 implements; P2 invokes and validates. Extra model fields are forbidden. Action variants: speak, vote, investigate, night_action. Only speech has message/emotion/intensity; intensity is 0–1.
+Observation includes own role, alive player IDs, public events, authorized private messages, allowed actions and eligible targets. Mafia also receives teammate IDs. Detective results go only to the investigating player. Inspector events are never agent observations. Do not pass GameState into agents.
+Roles, enums, target policies and error semantics require joint review before independent integration. Memory ownership and beliefs remain P1 responsibilities. Structured private result payloads and richer allowed-action schemas remain pending.

@@ -1,0 +1,2 @@
+// Planned module: AnimationController.
+export {};

@@ -1,0 +1,1 @@
+{"seed":7,"roles":["mafia","detective","citizen","citizen","citizen"],"first_phase":"night","tie_rule":"lowest_agent_id","reveal_role_on_elimination":false,"discussion_turns_per_player":1,"night_action_order":["investigate","mafia_kill"]}
